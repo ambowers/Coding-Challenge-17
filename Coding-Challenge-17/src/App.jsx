@@ -1,17 +1,16 @@
 import { useState } from 'react'
 import React from 'react'
-import reactLogo from './assets/react.svg'
+//Import and render the Gallery component.
 import Gallery from './Gallery'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-const App = () => {
+function App() {
   return (
-      <div>
-          <h1>Tour Comparison App</h1>
-          <Gallery />
-      </div>
-  );
-};
+    <div>
+      <h1>Tour Comparison</h1>
+      <Gallery />
+    </div>
+  )
+}
 
 export default App
